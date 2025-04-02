@@ -3,7 +3,6 @@ Wind Waker - 3D Scene Renderer:
 Overview
 ========
 
-
 This project is a 3D scene renderer that simulates a water environment with a boat and dynamic camera controls. The program uses OpenGL for rendering and GLFW for handling user input and window management. It allows users to interact with the scene using mouse and keyboard inputs, and includes features like camera zoom, rotation, and the movement of water waves.
 
 The renderer makes use of shaders, meshes, and transformations to display the scene. A camera system is implemented to allow the user to move and rotate the view around the scene interactively.
@@ -25,3 +24,9 @@ Requirements:
 - GLFW
 - PyGLM
 - Custom modules (helpers.py, water.py, camera.py, boat.py)
+
+Controls:
+=========
+Drag mouse = Move in a 360 degree viewing environment
+Up Arrow Key = Zoom in
+Down Arrow Key = Zoom out
