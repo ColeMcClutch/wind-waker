@@ -1,5 +1,3 @@
-# Renders the scene. Includes polling for input and adjusting the camera accordingly.
-# Author:  Joelene Hales
 
 from OpenGL.GL import *
 import glfw
