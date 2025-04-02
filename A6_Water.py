@@ -15,7 +15,7 @@ glfw.window_hint(glfw.SAMPLES, 4)  # Enable 4x multisampling
 # Set context version required for shaders and VAOs
 glfw.window_hint(glfw.CONTEXT_VERSION_MAJOR, 3)
 glfw.window_hint(glfw.CONTEXT_VERSION_MINOR, 3)
-glfw.window_hint(glfw.OPENGL_FORWARD_COMPAT, GL_TRUE)  # For MacOS
+glfw.window_hint(glfw.OPENGL_FORWARD_COMPAT, GL_TRUE)  
 glfw.window_hint(glfw.OPENGL_PROFILE, glfw.OPENGL_CORE_PROFILE)
 
 # Open a window and create its OpenGL context
