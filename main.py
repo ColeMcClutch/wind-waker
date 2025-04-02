@@ -32,7 +32,7 @@ water = Water(-10.0, 10.0, 1.0)
 boat = Boat()
 
 # Define matrices
-P = glm.perspective(glm.radians(45.0), screen_width/screen_height, 0.001, 1000.0)  # Projection matrix with a vertical field of view of 45 degrees
+P = glm.perspectiveFov(glm.radians(45.0), screen_width, screen_height, 0.001, 1000.0)
 M = glm.mat4(1.0)  # Model matrix
 
 # Initialize camera

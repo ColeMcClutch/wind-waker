@@ -99,7 +99,7 @@ def read_bitmap(filename):
         # Read image data
         image_data = []
         for byte in range(image_size):
-            image_data.append(int.from_bytes(bmp.read(1)))  # Read one byte
+            image_data.append(int.from_bytes(bmp.read(1), byteorder='little'))  # or 'big' depending on the byte order
 
     return image_data, width, height
 
